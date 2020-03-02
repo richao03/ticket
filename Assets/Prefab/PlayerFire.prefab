@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 10
-  AmmoExplosion: {fileID: 4065065659551660798, guid: 4201e447d5433448e9396bdaca118234,
+  AmmoExplosion: {fileID: 3766724012583880416, guid: 4201e447d5433448e9396bdaca118234,
     type: 3}
 --- !u!1 &7141009970119065424
 GameObject:

@@ -53,14 +53,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
-     <Compile Include="Assets\Scripts\DamageDealer.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\EnemyPath.cs" />
-     <Compile Include="Assets\Scripts\EnemySpwaner.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyPath.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySpwaner.cs" />
+     <Compile Include="Assets\Scripts\Enemy\WaveConfig.cs" />
+     <Compile Include="Assets\Scripts\Game\BackgroundScroller.cs" />
+     <Compile Include="Assets\Scripts\Game\DamageDealer.cs" />
+     <Compile Include="Assets\Scripts\Game\PatternController.cs" />
+     <Compile Include="Assets\Scripts\Game\Shredder.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Shredder.cs" />
-     <Compile Include="Assets\Scripts\WaveConfig.cs" />
+     <Compile Include="Assets\Scripts\rotate.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\z. Kenny Assets\Spritesheet\sheet.xml" />
